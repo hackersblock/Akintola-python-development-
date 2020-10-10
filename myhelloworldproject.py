@@ -1,0 +1,7 @@
+print('helloworld')
+print('hello again')
+print('i like this ')
+print('this is fun')
+print('my name is fola')
+print('what a wonderful day')
+print('close ')
