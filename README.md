@@ -1,4 +1,9 @@
-# Python Development Guide and Setup Instructions
+# Akintola-python-development Python Development Guide and Setup Instructions
+## folahack starts
+get to understand python from this examples i did
+and few changes to come up with a better code
+
+##
 
 A comprehensive guide for setting up a Python development environment with various tools and configurations.
 
@@ -36,10 +41,6 @@ Remember to:
 - Keep your requirements.txt updated
 - Activate your virtual environment before installing packages
 - Use appropriate .gitignore patterns for your project
-# Akintola-python-development-
-folahack starts
-get to understand python from this examples i did
-and few changes to come 
 
 
 # Streamlit Installation and Usage Guide
