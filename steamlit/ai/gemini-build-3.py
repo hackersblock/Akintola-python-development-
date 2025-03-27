@@ -12,13 +12,12 @@ load_dotenv()
 # Load API key from Streamlit Secrets
 GOOGLE_API_KEY = st.secrets["general"]["GOOGLE_API_KEY"]
 
+# Debugging: Print secrets to verify they are loaded
+if "GOOGLE_API_KEY" in st.secrets.get("general", {}):
+    st.success("GOOGLE_API_KEY is loaded successfully!")
+else:
+    st.error("GOOGLE_API_KEY not found. Check your secrets.toml file.")
 
-
-# # Initialize the genai client
-# GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
-if not GOOGLE_API_KEY:
-    st.error("GOOGLE_API_KEY not found. Please check your .env file.")
-    st.stop()
 
 # Initialize the genai client
 client = genai.Client(api_key=GOOGLE_API_KEY)
