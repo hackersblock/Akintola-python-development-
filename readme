@@ -72,3 +72,17 @@ aka name the variable and assign it to the env variable
 # to run the streamlit app in your terminal you need to run the following command
 `streamlit run [filename].py`
 
+
+# how to deploy the streamlit app streamlit sharing 
+1. Create a GitHub repository for your Streamlit app
+2. Push your Streamlit app files to the GitHub repository
+3. Create an account on Streamlit Sharing
+4. Connect your GitHub repository to Streamlit Sharing
+5. Deploy your Streamlit app on Streamlit Sharing
+6. Share the URL of your deployed Streamlit app with others
+
+# must important add your secret to streamlit sharing
+1. Go to the settings of your Streamlit Sharing app
+2. Add your secret environment variables to the app settings
+3. Save the changes
+4. Restart the app to apply the new environment variables
