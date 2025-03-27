@@ -1,7 +1,6 @@
 # Akintola-python-development Python Development Guide and Setup Instructions
 ## folahack starts
-get to understand python from this examples i did
-and few changes to come up with a better code
+Get to understand python with me
 
 ##
 
