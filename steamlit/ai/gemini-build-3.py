@@ -71,7 +71,7 @@ if selected == "Contact":
 
 # Streamlit app
 if selected == "Home":
-    st.title("Google GenAI with Streamlit")
+    st.title("imoran-ai with Streamlit")
     # Initialize session state for feedback, response and prompt
     if "thumbs_up_clicked" not in st.session_state:
         st.session_state.thumbs_up_clicked = False
