@@ -9,8 +9,13 @@ from streamlit_option_menu import option_menu
 # Load environment variables from .env file
 load_dotenv()
 
-# Initialize the genai client
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+# Load API key from Streamlit Secrets
+GOOGLE_API_KEY = st.secrets["general"]["GOOGLE_API_KEY"]
+
+
+
+# # Initialize the genai client
+# GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     st.error("GOOGLE_API_KEY not found. Please check your .env file.")
     st.stop()
