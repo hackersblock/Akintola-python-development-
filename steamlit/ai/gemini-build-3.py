@@ -43,13 +43,19 @@ selected = option_menu(
 if selected == "About":
     st.title("About Page")
     st.write("""
-    This application leverages **Google GenAI** to generate AI-driven responses. 
-    It is built using **Streamlit**, an open-source framework for creating interactive web applications in Python.
     
-    **Features:**
+     **Why the name 'Imoran-AI'?**
+    
+    "Imọran" is a Yoruba word that means *wisdom*, *insight*, or *guidance*. The purpose of **Imoran-AI** is to provide smart, insightful, and meaningful responses powered by AI, mimicking the wisdom of a knowledgeable guide.
+    
+    This AI-driven platform is built using **Google GenAI** and **Streamlit**, ensuring a seamless and interactive experience for users looking for intelligent conversations, AI-generated insights, and more.
+    
+    **Key Features:**
     - AI-powered text generation using Google's Gemini model.
-    - User-friendly interface with live updates.
-    - Feedback mechanism to improve response quality.
+    - Instant responses to various prompts with live feedback.
+    - Simple and intuitive UI for seamless user experience.
+    
+    Whether you're seeking knowledge, insights, or just engaging AI interactions, **Imoran-AI** is designed to bring wisdom to your fingertips.
     
     **Technologies Used:**
     - Python
