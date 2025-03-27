@@ -1,0 +1,10 @@
+# keep your api keys safe 
+.env
+# keep your virtual environment safe
+.venv
+# keep your python cache safe
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
