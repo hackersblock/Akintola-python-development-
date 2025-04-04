@@ -40,9 +40,13 @@ page = option_menu(
     menu_icon="cast",
     default_index=0,
      styles= {
-        "container": {"padding": "0!important", "background-color": "#fafafa"} if is_mobile else {},
+        "container": {"padding": "0!important", "background-color": "#008000"} if is_mobile else {},
         "icon": { "font-size": "5px"} if is_mobile else {"font-size": "20px"}, 
-        "nav-link": {"font-size": "1px", "margin":"0px", "--hover-color": "#eee"} if is_mobile else {"font-size": "18px","text-align": "center"},
+        "nav-link": {"font-size": "1px", "margin":"0px", "--hover-color": "#eee", } if is_mobile else {"font-size": "18px","text-align": "center"},
+        "nav-link-selected": {
+            "background-color": "#4CAF50", 
+            "color": "white"
+        }
     },
     orientation="vertical" if is_mobile else "horizontal",
 )
