@@ -97,7 +97,7 @@ if page == "Home":
             st.session_state.response = ""
             success_placeholder = st.empty()
             success_placeholder.success("Response cleared successfully.")
-            time.sleep(5)  # Wait for 5 seconds
+            time.sleep(0.5)  # Wait for 5 seconds
             success_placeholder.empty()  # Remove the success message
     # Display response if available
     if st.session_state.response:
@@ -112,7 +112,7 @@ if page == "Home":
                 st.session_state.thumbs_up_clicked = True
                 success_placeholder = st.empty()
                 success_placeholder.success("Thank you for your feedback!")
-                time.sleep(5)  # Wait for 5 seconds
+                time.sleep(3)  # Wait for 5 seconds
                 success_placeholder.empty()
 
         with col2:
@@ -120,7 +120,7 @@ if page == "Home":
                 st.session_state.thumbs_down_clicked = True
                 warning_placeholder = st.empty()
                 warning_placeholder.warning("Feedback noted. We’ll work on improving the responses.")
-                time.sleep(5)   # Wait for 5 seconds
+                time.sleep(3)   # Wait for 5 seconds
                 warning_placeholder.empty()
 
     # Trigger balloons if thumbs up was clicked
